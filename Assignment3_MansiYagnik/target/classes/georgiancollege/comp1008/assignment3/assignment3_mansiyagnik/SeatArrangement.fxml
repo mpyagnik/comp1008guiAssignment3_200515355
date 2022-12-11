@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="696.0" prefWidth="667.0" style="-fx-background-color: #f5f0e1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="georgiancollege.comp1008.assignment3.assignment3_mansiyagnik.SeatArrangement">
+    <children>
+        <HBox alignment="CENTER" layoutX="94.0" layoutY="367.0" prefHeight="130.0" prefWidth="485.0" style="-fx-background-color: #1b6535; -fx-border-color: black;">
+            <children>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps7" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n7" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps9" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n9" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps8" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n8" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" layoutX="94.0" layoutY="98.0" prefHeight="130.0" prefWidth="485.0" style="-fx-background-color: #1b6535; -fx-border-color: black;">
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+            <children>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps2" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n1" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps1" fill="WHITE" height="70.0" stroke="#131313" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n2" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps3" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n3" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" layoutX="94.0" layoutY="232.0" prefHeight="130.0" prefWidth="485.0" style="-fx-background-color: #a8c66c; -fx-border-color: black;">
+            <children>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps4" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n4" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                    <children>
+                        <Rectangle fx:id="ps5" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n5" />
+                    </children>
+                </VBox>
+                <VBox alignment="CENTER" prefHeight="100.0" prefWidth="98.0">
+                    <children>
+                        <Rectangle fx:id="ps6" fill="WHITE" height="70.0" stroke="#0d0d0d" strokeType="INSIDE" strokeWidth="4.0" width="70.0" />
+                        <Label fx:id="n6" />
+                    </children>
+                </VBox>
+            </children>
+        </HBox>
+        <ColorPicker fx:id="SelectedColor" layoutX="337.0" layoutY="512.0" prefHeight="26.0" prefWidth="130.0" promptText="White" style="-fx-background-color: #e1dd72; -fx-border-color: black; -fx-border-width: 2px;" />
+        <Label contentDisplay="CENTER" layoutX="214.0" layoutY="512.0" prefHeight="26.0" prefWidth="98.0" style="-fx-background-color: #e1dd72; -fx-border-color: black; -fx-font-weight: bold; -fx-border-width: 2px;" text="  SEAT COLOR">
+            <font>
+                <Font size="13.0" />
+            </font></Label>
+        <TextField fx:id="StudentName" layoutX="337.0" layoutY="556.0" prefHeight="0.0" prefWidth="130.0" style="-fx-background-color: #e1dd72; -fx-font-weight: bold; -fx-border-color: black; -fx-border-width: 2px;" />
+        <Label contentDisplay="CENTER" layoutX="204.0" layoutY="556.0" prefHeight="30.0" prefWidth="121.0" style="-fx-background-color: #e1dd72; -fx-font-weight: bold; -fx-border-color: black; -fx-border-width: 2px;" text="  STUDENT NAME">
+            <font>
+                <Font size="13.0" />
+            </font></Label>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="60.0" layoutX="92.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" width="485.0" />
+        <Label layoutX="117.0" layoutY="37.0" prefHeight="50.0" prefWidth="461.0" text="Student Seat Arrangement" textFill="#ff6e40">
+            <font>
+                <Font name="System Bold" size="34.0" />
+            </font>
+        </Label>
+        <Button fx:id="btn" layoutX="213.0" layoutY="605.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="26.0" prefWidth="238.0" style="-fx-background-color: #e1dd72; -fx-font-weight: bold;" text="Add Student" />
+        <Label fx:id="Message" layoutX="160.0" layoutY="643.0" prefHeight="37.0" prefWidth="452.0" style="-fx-background-color: #FFFFFF; -fx-border-color: blAck; -fx-border-width: 5PX; -fx-font-weight: bold;" textFill="#ef1e1e">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="65.0" layoutY="642.0" prefHeight="38.0" prefWidth="88.0" style="-fx-background-color: white; -fx-border-color: black; -fx-border-width: 5px; -fx-font-weight: bold;" text="  MESSAGE" textFill="#ef1e1e">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
